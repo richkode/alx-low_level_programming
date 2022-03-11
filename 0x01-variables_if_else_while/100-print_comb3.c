@@ -10,20 +10,20 @@ int main(void)
 
 	for (i = 48; i <= 56;)
 	{
+		putchar(i);
+		putchar(j);
 		if (j == 57)
 		{
 			i++;
 			j = 49;
 		}
-		putchar(i);
-		putchar(j);
 		if (i <= 56)
 		{
 			putchar(',');
 			putchar(' ');
 			j++;
 		}
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
