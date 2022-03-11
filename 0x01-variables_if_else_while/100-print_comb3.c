@@ -7,7 +7,8 @@ int main(void)
 {
 	int i;
 	int j = 49;
-	for (i = 48; i <= 56; ;)
+
+	for (i = 48; i <= 56;)
 	{
 		if (j == 57)
 		{
@@ -24,4 +25,5 @@ int main(void)
 		}
 		putchar('\n');
 	}
+	return (0);
 }
