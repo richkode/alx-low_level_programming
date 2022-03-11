@@ -5,9 +5,12 @@
  */
 int main(void)
 {
-	for (int i = 48; i <= 57; i++)
+	int i;
+	char ch;
+
+	for (i = 48; i <= 57; i++)
 		putchar(i);
-	for (char ch = 'a'; ch <= 'f'; ch++)
+	for (ch = 'a'; ch <= 'f'; ch++)
 		putchar(ch);
 	putchar('\n');
 	return (0);
