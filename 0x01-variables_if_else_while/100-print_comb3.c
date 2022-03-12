@@ -12,10 +12,11 @@ int main(void)
 	{
 		putchar(i);
 		putchar(j);
+
 		if (j == 57)
 		{
 			i++;
-			j = 49;
+			j = i;
 		}
 		if (i <= 56)
 		{
