@@ -7,7 +7,7 @@
 int main(void)
 {
 	char str[] = "_putchar";
-	size_t i;
+	unsigned long int i;
 
 	for (i = 0; i < strlen(str); i++)
 	{
