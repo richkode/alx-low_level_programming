@@ -17,6 +17,7 @@ void print_diagonal(int n)
 				if (filas == columns)
 				{
 					_putchar('\\');
+					_putchar('$');
 					_putchar('\n');
 				}
 				else
